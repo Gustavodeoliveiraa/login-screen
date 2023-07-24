@@ -32,6 +32,8 @@ main {
     position: relative;
     overflow: hidden;
     color: var(--color-overlay);
+    background-color: white;
+
 }
 
 .login-container{
@@ -133,7 +135,7 @@ main {
 .submit {
     background-color: var(--color-button);
     width: 120px;
-    height: 75px;
+    min-height: 40px;
     border-radius: 20px;
     color: white;
     border: none;
