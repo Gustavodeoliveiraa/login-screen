@@ -46,7 +46,7 @@ main {
 .form-content-register{
     margin: auto;
     height: 80%;
-    width: 80%;
+    width: 95%;
     font-size: 20px;
     display: flex;
 }
@@ -100,7 +100,7 @@ main {
 .input-label {
     background-color: var(--color-input);
     display: flex;
-    width: 70%;
+    width: 60%;
     height: 15%;
     align-items: center;
     margin: 2%;
