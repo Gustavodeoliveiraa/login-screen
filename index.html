@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-register.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="js/login.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <main >
+        <div class="login-container" id="login-content">
+            <div class="form-content-register ">
+                <form action="" method=" " class="form form-register" >
+                    <h1>Create  Account</h1>
+                    <div class="social-links">
+                        <ul class="links">
+                            <li><i class="fa-brands fa-google-plus-g"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+                        </ul>
+                    </div>
+                    
+                    <p>or use your email  for registration</p>
+
+
+                    <label class="input-label" for="name">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="name" name="name" placeholder="Name">
+                    </label>
+
+                    <label class="input-label" for="email">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" id="email" name="email" id="" placeholder="E-mail">
+                    </label>
+
+                    <label  class="input-label" for="password">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" placeholder="Password" name="password">
+                    </label>
+
+
+                    <input class="submit" type="submit" value="Sign up">
+
+                </form>
+                <!-- </div>   -->
+        
+                <!-- <div class="form-content-register reset"> -->
+                
+               
+                <form  action="" class="form form-login">
+                    <h1>enter your account </h1>
+                    <div class="social-links">
+                        <ul class="links">
+                            <li><i class="fa-brands fa-google-plus-g"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+                        </ul>
+                    </div>
+
+                    <p>or use your email  account</p>
+                    <label class="input-label"  for="email">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" id="email" name="email" id="" placeholder="E-mail">
+                    </label>
+
+                    <label class="input-label"  for="password">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" placeholder="Password" name="password">
+                    </label>
+
+                    <a class="space" href="">Forgot your passsword ?</a>
+
+
+                    <input class="submit " type="submit" value="Sign in">
+
+                </form>
+            </div>
+            <div class="overlay-content" id="overlay-content">
+                <div class="overlay">
+                    <h1>Create account</h1>
+                    <p>enter your personal detail <br> and start your journey with us</p>
+                    <button class="button-overlay" id="open-login" data-overlay="register">Sign in</button>
+                </div>
+                <div class="overlay">
+                    <h1>Welcome back!</h1>
+                    <p>to connect with us <br> please login with your personal info</p>
+                    <button class="button-overlay" id="open-register" data-overlay="login">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
