@@ -16,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: var(--font-roboto);
+    margin: 0;
 }
 
 h1, h2, p, ul{
@@ -45,7 +46,7 @@ main {
 
 .form-content-register{
     margin: auto;
-    height: 80%;
+    height: 90%;
     width: 95%;
     font-size: 20px;
     display: flex;
@@ -62,7 +63,7 @@ main {
     color: black;
     width: 100%;
     margin-top: 20%;
-    margin-bottom: 25%;
+    margin-bottom: 16%;
     padding: 0;
 }
 
@@ -95,18 +96,18 @@ main {
     height: 100%;
     transition: 1s;
     background-color: white;
+    text-align: center;
 }
 
 .input-label {
     background-color: var(--color-input);
     display: flex;
-    width: 60%;
-    height: 15%;
+    width: 70%;
+    height: 10%;
     align-items: center;
     margin: 2%;
     border: 2px solid transparent;
     border-radius: 14px;
-
 }
 
 .input-label input {
@@ -114,6 +115,7 @@ main {
     width: 100%;
     border: none;
     outline: transparent;
+    font-size: 1.2rem;
 }
 
 .input-label i {
@@ -215,3 +217,9 @@ main {
     transform: translateX(0%);
     z-index: 1;
 }
+ 
+.mobile-register,
+.mobile-login {
+    display: none;
+}
+
