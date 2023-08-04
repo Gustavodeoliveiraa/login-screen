@@ -163,6 +163,7 @@ main {
 
 .overlay {
     height: 100%;
+    width: 100%;
     background-color: var(--color-overlay);
     color: white;
     display: flex;
@@ -170,6 +171,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: absolute;
 }
 
 .overlay p {
